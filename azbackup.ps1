@@ -1,14 +1,14 @@
 #Author - YPK
 #Setup Virtual machine Backup in Azure DevOps pipeline using PowerShell
 #Variables
-$RG = 'TF' #Resource Group Name
+$RG = 'VM_Script' #Resource Group Name
 $Location = 'eastus'
 $RSVault = 'Vault1'
 $Redundancy = 'LocallyRedundant' #Storage Redundancy settings - LocallyRedundant/GeoRedundant
 $Time = '5:00' #Preferred Time to start Backup
 $Duration = '365' #Duration of Backup
 $PolicyName = 'BackupPolicy'
-$VMName = 'azbackuptest'
+$VMName = 'VM-Script-Windows'
 $BackupName = 'azbackuptest-backup'
 $WorkLoadType = "AzureVM"
 
