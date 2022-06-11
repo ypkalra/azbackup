@@ -15,5 +15,5 @@ steps:
   inputs:
     azureSubscription: 'Free Trial(caff6298-8437-4b70-a763-67f07c7676bc)'
     ScriptType: 'FilePath'
-    ScriptPath: '/azbackup.ps1'
+    ScriptPath: 'azbackup.ps1'
     errorActionPreference: 'silentlyContinue'
